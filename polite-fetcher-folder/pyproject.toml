@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "polite-fetcher"
+version = "0.1.0"
+description = "Polite seed fetcher with raw storage and SQLite manifest"
+authors = ["Local Export <local@example.com>"]
+readme = "README.md"
+packages = [{ include = "polite_fetcher" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scrapy = "*"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+ruff = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

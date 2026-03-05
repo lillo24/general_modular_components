@@ -1,0 +1,13 @@
+seed_urls = [
+  "https://www.unitn.it/",
+  "https://corsi.unitn.it/",
+  "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+]
+allowed_domains = [
+  "www.unitn.it",
+  "corsi.unitn.it",
+  "www.w3.org",
+]
+user_agent = "thesis-disi-chatbot/0.1"
+download_delay_seconds = 1.0
+concurrent_requests = 4
